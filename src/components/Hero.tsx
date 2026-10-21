@@ -5,35 +5,34 @@ import { StoreButtons } from "./StoreButtons";
 export function Hero() {
   return (
     <section id="top" className="px-2 sm:px-3">
-      <div className="relative isolate overflow-hidden rounded-b-[2rem] bg-[linear-gradient(160deg,#5a3fdc_0%,#3f4bd2_26%,#2459b0_52%,#1d3f86_74%,#33287f_100%)] sm:rounded-b-[2.75rem]">
+      <div className="relative isolate overflow-hidden rounded-b-[2rem] bg-[linear-gradient(160deg,#0f9d8a_0%,#128f9e_14%,#1f7fc4_30%,#2f5fe0_46%,#4f3fd8_60%,#5a32cc_74%,#4a239f_90%,#351a78_100%)] sm:rounded-b-[2.75rem]">
         <div className="dot-grid absolute inset-0 -z-10" aria-hidden />
         {/* Soft glows */}
-        <div className="absolute -left-32 top-10 -z-10 h-[28rem] w-[28rem] rounded-full bg-[#a78bfa]/25 blur-[120px]" aria-hidden />
-        <div className="absolute -right-16 -bottom-10 -z-10 h-[30rem] w-[30rem] rounded-full bg-[#7c5cfc]/40 blur-[130px]" aria-hidden />
-        <div className="absolute bottom-0 left-[30%] -z-10 h-[20rem] w-[20rem] rounded-full bg-[#2dd4bf]/15 blur-[120px]" aria-hidden />
+        <div className="absolute -left-32 -top-20 -z-10 h-[28rem] w-[28rem] rounded-full bg-[#5eead4]/20 blur-[120px]" aria-hidden />
+        <div className="absolute -right-24 bottom-10 -z-10 h-[30rem] w-[30rem] rounded-full bg-[#7c5cfc]/25 blur-[130px]" aria-hidden />
         <div className="absolute right-[8%] top-16 -z-10 h-[18rem] w-[18rem] rounded-full bg-[#ffb800]/20 blur-[110px]" aria-hidden />
 
-        <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 pb-0 pt-32 sm:px-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-6 lg:pt-36">
+        <div className="mx-auto grid max-w-6xl items-center gap-16 px-5 sm:gap-12 pb-0 pt-24 sm:px-10 sm:pt-32 lg:grid-cols-[1.05fr_0.95fr] lg:gap-6 lg:pt-36">
           {/* Copy */}
           <div className="relative z-10 pb-4 text-center lg:pb-28 lg:text-left">
-            <p className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 py-1.5 pl-1.5 pr-4 text-sm font-semibold text-white/90 backdrop-blur">
+            <p className="hidden items-center sm:inline-flex gap-2 rounded-full border border-white/15 bg-white/10 py-1.5 pl-1.5 pr-4 text-sm font-semibold text-white/90 backdrop-blur">
               <Image src="/mascot/indigo.webp" alt="" width={24} height={24} className="h-6 w-6" />
               Your AI longevity friend
             </p>
 
-            <h1 className="mt-6 font-display text-[3.1rem] font-extrabold leading-[0.98] tracking-[-0.035em] text-white sm:text-7xl lg:text-[5.4rem]">
+            <h1 className="font-display text-[2.6rem] sm:mt-6 font-extrabold leading-[0.98] tracking-[-0.035em] text-white sm:text-7xl lg:text-[5.4rem]">
               Live healthy,
               <br />
               <span className="text-gradient">longer.</span>
             </h1>
 
-            <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-white/75 lg:mx-0">
-              Indigo helps you build the small daily habits that add healthy years, with a friend who knows your routine
-              and checks in every day. Watch your lifestyle age move as you go.
+            <p className="mx-auto mt-4 max-w-xl text-[15px] leading-relaxed sm:mt-6 sm:text-lg text-white/75 lg:mx-0">
+              Indigo is an AI longevity habit tracker. Build the small daily habits that add healthy years, with a friend
+              who knows your routine and checks in every day. Watch your lifestyle age move as you go.
             </p>
 
-            <StoreButtons variant="light" className="mt-9 justify-center lg:justify-start" />
-            <p className="mt-4 text-sm font-medium text-white/55">Free to download · iPhone &amp; Android</p>
+            <StoreButtons variant="light" className="mt-6 justify-center sm:mt-9 lg:justify-start" />
+            <p className="mt-3 text-xs sm:mt-4 sm:text-sm font-medium text-white/55">Free to download · iPhone &amp; Android</p>
           </div>
 
           {/* Visual */}
@@ -57,7 +56,7 @@ export function Hero() {
               width={160}
               height={160}
               priority
-              className="absolute -right-8 -top-14 z-20 h-28 w-28 animate-float drop-shadow-[0_20px_30px_rgba(23,15,58,0.5)] sm:-right-14 sm:h-36 sm:w-36"
+              className="absolute -top-14 left-1/2 z-20 h-28 w-28 -translate-x-1/2 animate-float drop-shadow-[0_20px_30px_rgba(23,15,58,0.5)] sm:left-auto sm:-right-14 sm:h-36 sm:w-36 sm:translate-x-0"
             />
 
             <PhoneFrame

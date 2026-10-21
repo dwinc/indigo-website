@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { LegalPage, type LegalSection } from "@/components/LegalPage";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy · Indigo",
+  title: "Privacy Policy",
   description: "How Indigo collects, uses and protects your information.",
+  alternates: { canonical: "/privacy/" },
 };
 
 const sections: LegalSection[] = [

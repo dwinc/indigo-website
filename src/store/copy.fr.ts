@@ -77,8 +77,8 @@ export const fr: StoreCopy = {
       disclaimer: "Estimations basées sur le mode de vie. Pas une mesure clinique.",
     },
     squad: {
-      name: "Guerriers du week-end",
-      initial: "G",
+      name: "Les Marcheurs",
+      initial: "M",
       subtitle: "Pas cette semaine",
       rows: [
         { name: "Toi", steps: "26 931", you: true },

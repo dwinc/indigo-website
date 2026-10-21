@@ -27,7 +27,7 @@ export const es: StoreCopy = {
       layout: "aging",
       eyebrow: "Ritmo de envejecimiento",
       headline: "Tus hábitos,\n*años de vida.*",
-      sub: "Mira cómo cambian tu ritmo de envejecimiento y tu edad de estilo de vida.",
+      sub: "Tu ritmo de envejecimiento y tu edad de estilo de vida, día a día.",
     },
     {
       id: "4",

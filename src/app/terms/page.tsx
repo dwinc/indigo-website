@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { LegalPage, type LegalSection } from "@/components/LegalPage";
 
 export const metadata: Metadata = {
-  title: "Terms of Service · Indigo",
+  title: "Terms of Service",
   description: "The terms that apply when you use the Indigo app.",
+  alternates: { canonical: "/terms/" },
 };
 
 const sections: LegalSection[] = [

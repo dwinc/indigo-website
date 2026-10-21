@@ -7,6 +7,7 @@ const links = [
   { href: "#coach", label: "Your friend" },
   { href: "#how", label: "How it works" },
   { href: "#features", label: "Features" },
+  { href: "#faq", label: "FAQ" },
 ];
 
 export function Nav() {
@@ -50,15 +51,7 @@ export function Nav() {
           ))}
         </ul>
 
-        <div className="flex items-center gap-2">
-          <a
-            href="#download"
-            className={`rounded-full px-5 py-2.5 text-sm font-bold transition-all duration-300 hover:-translate-y-px ${
-              solid ? "bg-indigo text-white shadow-[0_8px_20px_-8px_rgba(99,102,241,0.8)]" : "bg-white text-plum"
-            }`}
-          >
-            Get the app
-          </a>
+        <div className="flex items-center gap-2 md:hidden">
           <button
             type="button"
             className={`grid h-10 w-10 place-items-center rounded-full md:hidden ${solid ? "text-ink" : "text-white"}`}

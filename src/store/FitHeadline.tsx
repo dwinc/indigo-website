@@ -13,8 +13,12 @@ export function FitHeadline({ text, dark, base, className }: { text: string; dar
 
   useLayoutEffect(() => {
     let cancelled = false;
-    // Measure with the real web font, not the fallback.
-    document.fonts.ready.then(() => {
+    // Measure with the real web font, not the fallback: explicitly load the face this headline uses
+    // (document.fonts.ready alone can resolve before the font has even been requested).
+    const target = ref.current;
+    if (!target) return;
+    const cs = getComputedStyle(target);
+    Promise.all([document.fonts.load(`${cs.fontWeight} ${base}px ${cs.fontFamily}`), document.fonts.ready]).then(() => {
       const el = ref.current;
       if (!el || cancelled) return;
       el.style.fontSize = `${base}px`;

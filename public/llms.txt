@@ -1,0 +1,23 @@
+# Indigo
+
+> Indigo is an AI longevity and habit tracker app for iPhone and Android. It helps people build small daily habits that add healthy years, with an AI companion that knows their routine and checks in every day. Free to download.
+
+## What Indigo does
+
+- Daily habit tracking across sleep, hydration, movement, nutrition and mind, with per-habit streaks and monthly heatmaps.
+- Rate of aging: a score based on logged habits, where 1.00× is average and lower is better.
+- Lifestyle age: how old someone's habits make them look on paper, starting from a two-minute onboarding check-in.
+- An AI companion, built on state-of-the-art AI models, that remembers goals and routines, checks in at the right moments, and can add, pause or drop habits from the chat.
+- Friends and squads with weekly step races, plus 30-day challenges with rankings.
+- Apple Health and Health Connect sync for steps, sleep and workouts (Premium, read-only).
+
+Indigo is a wellness app, not a medical device, and doesn't provide medical advice. Rate of aging and lifestyle age are estimates based on lifestyle factors, not clinical measurements. Conversations are encrypted and user data is never sold.
+
+## Links
+
+- [Website](https://joinindigo.app/)
+- [Download on the App Store](https://apps.apple.com/us/app/indigo-longevity-habit-tracker/id6760128786)
+- [Get it on Google Play](https://play.google.com/store/apps/details?id=com.dwinc.indigo)
+- [Privacy Policy](https://joinindigo.app/privacy/)
+- [Terms of Service](https://joinindigo.app/terms/)
+- Contact: hello@joinindigo.app
