@@ -72,6 +72,14 @@ body {
   color: transparent;
 }
 
+/* Highlight for light backgrounds (store frames). */
+.text-gradient-ink {
+  background: linear-gradient(100deg, #6366f1 0%, #9b5cf6 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 /* Scroll reveal: content is only hidden once JS is present to reveal it again. */
 .js [data-reveal] {
   opacity: 0;
