@@ -119,7 +119,7 @@ function ScreenCrop({
 }) {
   return (
     <div
-      className={`relative mt-7 overflow-hidden rounded-t-[1.75rem] border-[6px] border-b-0 ${
+      className={`relative mt-7 overflow-clip rounded-t-[1.75rem] border-[6px] border-b-0 ${
         dark ? "border-white/25" : "border-[#141029]"
       } ${height} -mb-7`}
     >
