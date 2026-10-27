@@ -72,7 +72,7 @@ body {
   color: transparent;
 }
 
-/* Highlight for light backgrounds (store frames). */
+/* Headline highlight on light backgrounds (store screenshot "homework" treatment). */
 .text-gradient-ink {
   background: linear-gradient(100deg, #6366f1 0%, #9b5cf6 100%);
   -webkit-background-clip: text;

@@ -7,6 +7,10 @@ const faqs = [
     a: "Indigo is an AI longevity and habit tracker for iPhone and Android. It helps you build small daily habits across sleep, hydration, movement, nutrition and mind, with an AI companion that knows your routine and checks in every day.",
   },
   {
+    q: "How is Indigo different from other health apps?",
+    a: "Most health apps bury you in calorie counts, macros and charts. Indigo is a short daily checklist of the habits that add healthy years, with an AI friend who checks in. No calorie counting, no confusing dashboards — it doesn't feel like homework.",
+  },
+  {
     q: "What is rate of aging?",
     a: "Your rate of aging is a score based on the habits you log. 1.00× is average and lower is better, so a good week of sleep, movement and nutrition pulls it down. It's an estimate based on lifestyle factors, not a clinical measurement.",
   },

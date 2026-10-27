@@ -7,6 +7,7 @@ import { Footer } from "@/components/Footer";
 import { HabitMarquee } from "@/components/HabitMarquee";
 import { Hero } from "@/components/Hero";
 import { HowItWorks } from "@/components/HowItWorks";
+import { NoHomework } from "@/components/NoHomework";
 import { Nav } from "@/components/Nav";
 import { site } from "@/lib/site";
 
@@ -53,6 +54,7 @@ export default function Home() {
       <main>
         <Hero />
         <HabitMarquee />
+        <NoHomework />
         <CoachSection />
         <HowItWorks />
         <AgingSection />

@@ -33,7 +33,7 @@ const sections: LegalSection[] = [
   {
     heading: "Premium Subscription",
     body: [
-      "Premium features are available through a monthly subscription at $2.99/month. Subscriptions auto-renew unless cancelled at least 24 hours before the end of the current period. Manage subscriptions through your App Store or Google Play settings.",
+      "Premium features are available through monthly and yearly subscriptions. Current prices are shown in the app before you purchase. Subscriptions auto-renew unless cancelled at least 24 hours before the end of the current period. Manage subscriptions through your App Store or Google Play settings.",
     ],
   },
   {

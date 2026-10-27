@@ -12,8 +12,8 @@ export function FinalCta() {
           <h2 className="mx-auto max-w-2xl font-display text-4xl font-bold leading-[1.05] tracking-[-0.03em] sm:text-6xl">
             Your future self is cheering you on.
           </h2>
-          <p className="mx-auto mt-5 max-w-lg text-lg text-white/75">
-            Start with one habit today. Indigo will take it from there.
+          <p className="mx-auto mt-5 max-w-xl text-lg text-white/75">
+            A health app that doesn&rsquo;t feel like homework. Start with one habit today.
           </p>
           <StoreButtons variant="light" className="mt-9 justify-center" />
           <p className="mt-4 text-sm font-medium text-white/60">Free to download</p>
